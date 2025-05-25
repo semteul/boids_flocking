@@ -1,8 +1,23 @@
-# boids_flocking
+# 2차원에서의 Boid 구현
+마지막 업데이트 2025.5.25
+작성자 : 김민석 (semteul32@gmail.com)
+
+아래 세가지 룰을 이용해 새나 물고기가 군집을 이루는 움직임을 모방한 시뮬레이터입니다. 
+1. 멀리있는 개체는 가까이 가려고 한다.
+2. 너무 가까이 있는 개체는 조금 떨어지려 한다.
+3. 군집이 이동중인 방향으로 정렬하려고 한다.
+
+여기서 포식자는 아래 규칙을 하나 더 추가했습니다.
+4. 포식자나 벽이 나타날 경우 최대한 빠르게 반대방향으로 이동하려고 한다.
+
+
+# Boids_flocking
 간단한 boids flocking 입니다.
 
-시연:
-https://kcal2845.github.io/boids_flocking/
-
+# Boids Flocking
 포식자 버전(마우스가 포식자가 됩니다):
 https://kcal2845.github.io/boids_flocking/포식자.html
+
+
+# 개선방안
+1. 군집이 커져도 유지가 잘 되도록 하는 것
